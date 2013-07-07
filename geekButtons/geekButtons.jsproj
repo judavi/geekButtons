@@ -54,6 +54,7 @@
     <Content Include="css\buttons.css" />
     <Content Include="css\default.css" />
     <Content Include="default.html" />
+    <Content Include="Fonts\Mission-Script.otf" />
     <Content Include="images\background.png" />
     <Content Include="images\button.PNG" />
     <Content Include="images\logo.png" />
@@ -145,6 +146,7 @@
   </ItemGroup>
   <ItemGroup>
     <SDKReference Include="Microsoft.WinJS.1.0, Version=1.0" />
+    <SDKReference Include="MSAdvertisingJS, Version=6.1" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\$(WMSJSProjectDirectory)\Microsoft.VisualStudio.$(WMSJSProject).targets" />
   <!-- To modify your build process, add your task inside one of the targets below then uncomment
