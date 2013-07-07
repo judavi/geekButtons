@@ -1,0 +1,167 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|AnyCPU">
+      <Configuration>Debug</Configuration>
+      <Platform>AnyCPU</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|ARM">
+      <Configuration>Debug</Configuration>
+      <Platform>ARM</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x86">
+      <Configuration>Debug</Configuration>
+      <Platform>x86</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|AnyCPU">
+      <Configuration>Release</Configuration>
+      <Platform>AnyCPU</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|ARM">
+      <Configuration>Release</Configuration>
+      <Platform>ARM</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x86">
+      <Configuration>Release</Configuration>
+      <Platform>x86</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>64ec69ea-447c-4713-a8e8-1e2057da0822</ProjectGuid>
+    <ExpressionBlendVersion>5.0.31017.0</ExpressionBlendVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '11.0'">
+    <VisualStudioVersion>11.0</VisualStudioVersion>
+  </PropertyGroup>
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\$(WMSJSProjectDirectory)\Microsoft.VisualStudio.$(WMSJSProject).Default.props" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\$(WMSJSProjectDirectory)\Microsoft.VisualStudio.$(WMSJSProject).props" />
+  <PropertyGroup>
+    <TargetPlatformIdentifier>Windows</TargetPlatformIdentifier>
+    <TargetPlatformVersion>8.0</TargetPlatformVersion>
+    <DefaultLanguage>es-ES</DefaultLanguage>
+    <PackageCertificateKeyFile>geekButtons_TemporaryKey.pfx</PackageCertificateKeyFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <Content Include="css\buttons2.css" />
+    <Content Include="css\buttons.css" />
+    <Content Include="css\default2.css" />
+    <Content Include="css\default.css" />
+    <Content Include="css\prueba.css" />
+    <Content Include="css\style.css" />
+    <Content Include="default.html" />
+    <Content Include="defaultGood.html" />
+    <Content Include="images\background.png" />
+    <Content Include="images\button.PNG" />
+    <Content Include="images\logo.png" />
+    <Content Include="images\smalllogo.png" />
+    <Content Include="images\splashscreen.png" />
+    <Content Include="images\storelogo.png" />
+    <AppxManifest Include="package.appxmanifest">
+      <SubType>Designer</SubType>
+    </AppxManifest>
+    <Content Include="js\default.js" />
+    <Content Include="js\functions.js" />
+    <Content Include="js\jquery.js" />
+    <Content Include="js\navigator.js" />
+    <Content Include="page.html" />
+    <Content Include="pages\configuration\privacity.css" />
+    <Content Include="pages\configuration\privacity.html" />
+    <Content Include="pages\configuration\privacity.js" />
+    <Content Include="Sounds\Badumtss.mp3" />
+    <Content Include="Sounds\Ballsofsteel.mp3" />
+    <Content Include="Sounds\Bazinga.mp3" />
+    <Content Include="Sounds\BennyHill.mp3" />
+    <Content Include="Sounds\BirdTheWorld.mp3" />
+    <Content Include="Sounds\BoomHeadshot.mp3" />
+    <Content Include="Sounds\Burned.mp3" />
+    <Content Include="Sounds\Chan.mp3" />
+    <Content Include="Sounds\ChanChan.mp3" />
+    <Content Include="Sounds\Chewbacca.mp3" />
+    <Content Include="Sounds\ComboBreaker.mp3" />
+    <Content Include="Sounds\Correct.mp3" />
+    <Content Include="Sounds\Crickets.mp3" />
+    <Content Include="Sounds\Cuek.mp3" />
+    <Content Include="Sounds\Developers.mp3" />
+    <Content Include="Sounds\DoaBarrel Roll.mp3" />
+    <Content Include="Sounds\Doh.mp3" />
+    <Content Include="Sounds\Drama.mp3" />
+    <Content Include="Sounds\Dramatic.mp3" />
+    <Content Include="Sounds\Drumroll.mp3" />
+    <Content Include="Sounds\EmergencyYodel.mp3" />
+    <Content Include="Sounds\Epic.mp3" />
+    <Content Include="Sounds\EvilLaugh.mp3" />
+    <Content Include="Sounds\Excellent.mp3" />
+    <Content Include="Sounds\FalconPunch.mp3" />
+    <Content Include="Sounds\Fatality.mp3" />
+    <Content Include="Sounds\FinishHim.mp3" />
+    <Content Include="Sounds\FuckOff.mp3" />
+    <Content Include="Sounds\HaHa.mp3" />
+    <Content Include="Sounds\HallelujahLong.mp3" />
+    <Content Include="Sounds\HallelujahShort.mp3" />
+    <Content Include="Sounds\Incorrect.mp3" />
+    <Content Include="Sounds\InetisforPron.mp3" />
+    <Content Include="Sounds\ItsaTrap.mp3" />
+    <Content Include="Sounds\KameHameHa.mp3" />
+    <Content Include="Sounds\KeyBoardCat.mp3" />
+    <Content Include="Sounds\Khaaan.mp3" />
+    <Content Include="Sounds\LALALALA.mp3" />
+    <Content Include="Sounds\Lazor.mp3" />
+    <Content Include="Sounds\Leeroy.mp3" />
+    <Content Include="Sounds\Legendary.mp3" />
+    <Content Include="Sounds\Mario.mp3" />
+    <Content Include="Sounds\MetalGearSolid.mp3" />
+    <Content Include="Sounds\MLB.mp3" />
+    <Content Include="Sounds\Muppets.mp3" />
+    <Content Include="Sounds\Murloc.mp3" />
+    <Content Include="Sounds\Ommm.mp3" />
+    <Content Include="Sounds\Omnom.mp3" />
+    <Content Include="Sounds\Over9000.mp3" />
+    <Content Include="Sounds\Penny.mp3" />
+    <Content Include="Sounds\R2D2.mp3" />
+    <Content Include="Sounds\SadTrombone.mp3" />
+    <Content Include="Sounds\ShhAhh.mp3" />
+    <Content Include="Sounds\ShutUp.mp3" />
+    <Content Include="Sounds\StarWarsNoooo.mp3" />
+    <Content Include="Sounds\Swanee.mp3" />
+    <Content Include="Sounds\Tada.mp3" />
+    <Content Include="Sounds\ThisIsSparta.mp3" />
+    <Content Include="Sounds\Trollololol.mp3" />
+    <Content Include="Sounds\Tumbleweed.mp3" />
+    <Content Include="Sounds\VictoryFF.mp3" />
+    <Content Include="Sounds\Wakawaka.mp3" />
+    <Content Include="Sounds\WilhelmScream.mp3" />
+    <Content Include="Sounds\Wololo.mp3" />
+    <Content Include="Sounds\Worng.mp3" />
+    <Content Include="Sounds\Yeahhh.mp3" />
+    <Content Include="Sounds\Youareapirate.mp3" />
+    <Content Include="Sounds\Zas.mp3" />
+    <Content Include="Sounds\Zasca.mp3" />
+    <Content Include="Sounds\Zelda Item.mp3" />
+    <Content Include="Sounds\Zelda Secret.mp3" />
+    <None Include="geekButtons_TemporaryKey.pfx" />
+  </ItemGroup>
+  <ItemGroup>
+    <SDKReference Include="Microsoft.WinJS.1.0, Version=1.0" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\$(WMSJSProjectDirectory)\Microsoft.VisualStudio.$(WMSJSProject).targets" />
+  <!-- To modify your build process, add your task inside one of the targets below then uncomment
+       that target and the DisableFastUpToDateCheck PropertyGroup. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  <PropertyGroup>
+    <DisableFastUpToDateCheck>true</DisableFastUpToDateCheck>
+  </PropertyGroup>
+  -->
+</Project>

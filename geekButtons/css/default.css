@@ -1,0 +1,111 @@
+﻿html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    -ms-flex-align: center;
+    -ms-flex-direction: column;
+    -ms-flex-pack: center;
+    display: -ms-flexbox;
+	background-color: #212121;
+	background-image: url('/images/background.png') !important;
+}
+
+.fixedlayout {
+    -ms-grid-columns: 5fr;
+    -ms-grid-rows: 5fr;
+    display: -ms-grid;
+    height: 768px;
+    width: 1024px;
+}
+
+.individualButton{
+	display:inline-block; 
+	text-align:center;
+	font-size:12px;
+    width:120px;
+    height:160px;
+    margin-left:15px;
+    margin-right:15px;
+}
+
+.stopButton{
+	display:inline-block; 
+	text-align:center;
+	font-size:12px;
+    width:120px;
+    height:110px;
+
+}
+	
+h3{
+	font-size:18pt;
+}
+
+
+
+.contentContainer 
+{
+    -ms-grid-row: 2;
+	-ms-grid-rows:30px 1fr;
+    overflow-y: scroll;
+    background-color: red;
+    height: 100%;
+}
+
+.contentPage
+{
+	display: -ms-grid;
+	/* background: gray; */
+	height:100%;
+	width:100%;
+	
+}
+
+.header
+{
+	-ms-grid-row:1;
+	/* background: maroon; */
+	margin-left:50px;
+	margin-bottom:20px;
+	margin-top:20px;
+	-ms-grid-column:1;
+	width:50%;
+	display:block;
+	float:left;
+}
+
+.contentStop
+{
+	
+	-ms-grid-row:1;	
+	float:right;
+	display:block;
+	margin-right:130px;
+}
+
+.buttonsContainer 
+{
+    -ms-grid-row:2;
+	overflow-y: auto;
+	/*background: green;*/
+	height: calc(50% - 200px);
+	margin-left:50px;
+	
+}
+
+		
+
+@media screen and (-ms-view-state: fullscreen-landscape) {
+}
+
+@media screen and (-ms-view-state: filled) {
+}
+
+@media screen and (-ms-view-state: snapped) {
+}
+
+@media screen and (-ms-view-state: fullscreen-portrait) {
+}

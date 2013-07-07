@@ -1,0 +1,34 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta charset="utf-8" />
+    <title>Privacity</title>
+
+    <!-- Referencias de WinJS -->
+    <link href="//Microsoft.WinJS.1.0/css/ui-dark.css" rel="stylesheet" />
+    <script src="//Microsoft.WinJS.1.0/js/base.js"></script>
+    <script src="//Microsoft.WinJS.1.0/js/ui.js"></script>
+
+    <link href="privacity.css" rel="stylesheet" />
+    <script src="privacity.js"></script>
+</head>
+<body>
+
+    <div id="configuration" data-win-control="WinJS.UI.SettingsFlyout" data-win-options="{width: 'narrow'}">
+       <div class="SettingsPane">
+         <div class="win-label">
+            <button onclick="WinJS.UI.SettingsFlyout.show()" class="win-backbutton">
+            </button> 
+            <span class="SettingsTitle">Privacity</span>          
+        </div>
+         <article class="SettingsContent">
+            <p>This application uses the internet to download, exclusively, information from our servers. No information about the machine or the user is sent back to them or any other server via internet or any other means, by this application</p>
+             <p>App made by Judavi</p>
+             <p>More info att <a href="http://www.judavi.com/geekbuttons">Judavi.com</a></p>
+          </article>
+        </div>
+    </div>
+
+</body>
+</html>

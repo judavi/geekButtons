@@ -1,0 +1,32 @@
+﻿.privacity section[role=main] {
+    margin-left: 120px;
+    margin-right: 120px;
+}
+
+@media screen and (-ms-view-state: snapped) {
+    .privacity section[role=main] {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+}
+
+@media screen and (-ms-view-state: fullscreen-portrait) {
+    .privacity section[role=main] {
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+}
+
+#configuration {
+     background-color: darkgrey;
+} 
+
+
+.SettingsTitle {
+    margin-left: 36px;
+}
+
+.SettingsPane {
+    margin-top:36px;
+    margin-left:48px;
+}
