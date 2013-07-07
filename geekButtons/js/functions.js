@@ -88,7 +88,7 @@ function fillScreen(){
 	    sound = individualSound[i].split(',');
 	    MSApp.execUnsafeLocalFunction(
             function () {
-                document.getElementById('buttonsContent').innerHTML += '<div class="individualButton"><h3>' + sound[1] + '</h3><a href="#"  class="button ' + sound[0] + ' glossy oval icon xl" onclick="playSound(\'' + sound[2] + '\')"></a></div>';
+                document.getElementById('buttonsContent').innerHTML += '<div class="individualButton"><h3>' + sound[2] + '</h3><a href="#"  class="button ' + sound[0] + ' glossy oval icon xl" onclick="playSound(\'' + sound[1] + '\')"></a></div>';
             }
         );
 	}

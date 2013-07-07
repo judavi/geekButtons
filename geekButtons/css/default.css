@@ -1,10 +1,4 @@
-﻿html, body {
-    height: 100%;
-    margin: 0;
-    padding: 0;
-}
-
-body {
+﻿body {
     -ms-flex-align: center;
     -ms-flex-direction: column;
     -ms-flex-pack: center;
@@ -14,8 +8,6 @@ body {
 }
 
 .fixedlayout {
-    -ms-grid-columns: 5fr;
-    -ms-grid-rows: 5fr;
     display: -ms-grid;
     height: 768px;
     width: 1024px;
@@ -30,22 +22,7 @@ body {
     margin-left:15px;
     margin-right:15px;
 }
-
-.stopButton{
-	display:inline-block; 
-	text-align:center;
-	font-size:12px;
-    width:120px;
-    height:110px;
-
-}
 	
-h3{
-	font-size:18pt;
-}
-
-
-
 .contentContainer 
 {
     -ms-grid-row: 2;
@@ -79,12 +56,26 @@ h3{
 
 .contentStop
 {
-	
 	-ms-grid-row:1;	
 	float:right;
-	display:block;
-	margin-right:130px;
+	margin-right:125px;
 }
+
+
+.stopRight
+{
+	-ms-grid-column:2;
+}
+
+.labelStop
+{
+	-ms-grid-column:1;
+	font-size:22px;	
+}
+.stopButton{
+	display: -ms-grid;
+}
+
 
 .buttonsContainer 
 {
@@ -96,16 +87,3 @@ h3{
 	
 }
 
-		
-
-@media screen and (-ms-view-state: fullscreen-landscape) {
-}
-
-@media screen and (-ms-view-state: filled) {
-}
-
-@media screen and (-ms-view-state: snapped) {
-}
-
-@media screen and (-ms-view-state: fullscreen-portrait) {
-}
